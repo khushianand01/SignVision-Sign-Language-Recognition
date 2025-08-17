@@ -1,22 +1,86 @@
-# ​ SignVision 
+# ✋ SignVision – Real-Time Sign Language Recognition  
 
-Real-time **Sign Language Recognition** using **OpenCV**, **MediaPipe**, and **Deep Learning** — powered by Python and designed for accessibility.
-
----
-
-##  Tech Stack  
-- **Python**  
-- **OpenCV** (computer vision)  
-- **MediaPipe** (hand detection & landmarks)  
-- **TensorFlow / Keras** (gesture classification)  
-- **NumPy**, **Pandas**, **Scikit-learn** (data & preprocessing)
+**SignVision** is a real-time **Sign Language Recognition System** that uses **OpenCV**, **MediaPipe**, and **Deep Learning** to recognize hand gestures and convert them into text.  
+This project aims to bridge communication gaps for the **speech & hearing-impaired community** by providing an accessible AI solution.  
 
 ---
 
-##  Install & Run
+## 🚀 Features  
+- ✋ Real-time hand tracking with OpenCV + MediaPipe  
+- 🤖 Gesture classification using a deep learning model (TensorFlow/Keras)  
+- 📝 Converts signs into text output in real-time  
+- 🎥 Works with any standard webcam  
+- 📱 Future-ready for mobile/embedded deployment (TensorFlow Lite)  
+
+---
+
+## 🛠 Tech Stack  
+- **Python** 🐍  
+- **OpenCV** – video/image processing  
+- **MediaPipe** – real-time hand landmark detection  
+- **TensorFlow / Keras** – deep learning gesture classification  
+- **Scikit-learn** – preprocessing & optimization  
+- **NumPy & Pandas** – numerical computations & data handling  
+
+---
+
+## ⚙️ Installation  
 
 ```bash
+# Clone the repository
 git clone https://github.com/khushianand01/SignVision-Sign-Language-Recognition.git
 cd SignVision-Sign-Language-Recognition
+
+# (Optional) Create a virtual environment
+python -m venv venv
+source venv/bin/activate   # Mac/Linux
+venv\Scripts\activate      # Windows
+
+# Install dependencies
 pip install -r requirements.txt
+
+# Run the project
 python signvision.py
+
+---
+
+## 📂 Workflow  
+
+- 📹 Capture video from webcam  
+- ✋ Detect hand & extract landmarks (OpenCV + MediaPipe)  
+- 🤖 Classify gestures using trained deep learning model  
+- 📝 Display recognized sign as text in real-time  
+
+---
+
+## 📊 Results  
+
+✅ Real-time detection of hand gestures  
+✅ Accurate text output for predefined gestures  
+✅ Simple, scalable, and efficient  
+
+---
+
+## 🔮 Future Scope  
+
+- 🗣 Add speech output (sign → text → voice)  
+- 📖 Expand vocabulary for more signs & sentences  
+- 📱 Deploy on mobile using TensorFlow Lite  
+- 🌐 Build a user-friendly web app (Flask / Streamlit)  
+
+---
+
+## 👩‍💻 Contributors  
+
+- Aaditya Chauhan  
+- Khushi Anand  
+
+---
+
+## 📜 License  
+
+Licensed under the **MIT License** – free to use and modify with proper credit.  
+
+---
+
+✨ *If you find this project helpful, don’t forget to ⭐ the repo!*  
