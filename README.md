@@ -27,7 +27,7 @@ This project aims to bridge communication gaps for the **speech & hearing-impair
 
 1. Clone the repository
    ```bash
-    git clone https://github.com/khushianand01/SignVision-Sign-Language-Recognition.git
+   git clone https://github.com/khushianand01/SignVision-Sign-Language-Recognition.git
    cd SignVision-Sign-Language-Recognition
 2. Install dependencies
    ```bash
