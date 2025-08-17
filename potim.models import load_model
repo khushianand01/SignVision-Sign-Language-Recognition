@@ -1,0 +1,6 @@
+🧠 Most Common Defaults (if you used Teachable Machine or similar):
+If you used something like Teachable Machine by Google, it typically uses:
+
+Optimizer: Adam
+
+Learning rate: 0.001

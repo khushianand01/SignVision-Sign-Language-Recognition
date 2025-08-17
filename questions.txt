@@ -1,0 +1,39 @@
+🧠 Most Common Defaults (if you used Teachable Machine or similar):
+If you used something like Teachable Machine by Google, it typically uses:
+
+Optimizer: Adam
+
+Learning rate: 0.001
+
+
+categorical_crossentropy is used
+
+Why did you not use a hand landmark detection system like MediaPipe instead of a fixed ROI? What are the trade-offs?
+→ This tests your awareness of state-of-the-art alternatives and design decisions.
+
+What are the limitations of using a classification-only approach for dynamic signs or gestures involving motion?
+→ Assesses understanding of temporal modeling (e.g., RNNs, LSTMs, CNN+LSTM).
+
+If your model misclassifies ‘M’ as ‘N’ frequently, how would you debug and fix it without retraining from scratch?
+→ Tests your problem-solving and model tuning ability.
+
+Why did you choose a confidence threshold of 0.8? How would you find the optimal threshold mathematically?
+→ Challenges your grasp of ROC curves, precision-recall tradeoffs, or cross-validation.
+
+Can your model handle occlusion, such as when part of the hand is out of the frame? Why or why not?
+→ Focuses on robustness and model generalization.
+
+Suppose you wanted to extend this to sentence-level recognition — what architectural changes would be necessary?
+→ Evaluates your knowledge of sequence modeling (RNNs, Transformers).
+
+Explain how you would implement model quantization or pruning to reduce latency. What are the risks?
+→ A question on deployment optimization and edge computing.
+
+Is your model rotation invariant? What design changes would ensure invariance to scale, rotation, and translation?
+→ Tests understanding of data augmentation vs architectural robustness.
+
+How would you test and validate the fairness of your model across different hand colors, shapes, and backgrounds?
+→ Brings ethics, bias, and fairness in AI into the discussion.
+
+Can you explain what happens internally in a convolutional layer and how it detects features like edges or shapes?
+→ Deepens the focus on theory and network internals (filters, activation maps, receptive fields).
