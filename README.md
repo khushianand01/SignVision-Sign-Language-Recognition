@@ -24,8 +24,17 @@ This project aims to bridge communication gaps for the **speech & hearing-impair
 ---
 
 ## ⚙️ Installation  
+# Clone the repository
+git clone https://github.com/khushianand01/SignVision-Sign-Language-Recognition.git
+cd SignVision-Sign-Language-Recognition
 
-```bash
+# (Optional) Create a virtual environment
+python -m venv venv
+source venv/bin/activate   # Mac/Linux
+venv\Scripts\activate      # Windows
+
+# Install dependencies
+
 # Clone the repository
 git clone https://github.com/khushianand01/SignVision-Sign-Language-Recognition.git
 cd SignVision-Sign-Language-Recognition
@@ -41,7 +50,6 @@ pip install -r requirements.txt
 # Run the project
 python signvision.py
 
----
 
 ## 📂 Workflow  
 
@@ -51,6 +59,10 @@ python signvision.py
 - 📝 Display recognized sign as text in real-time  
 
 ---
+
+
+
+
 
 ## 📊 Results  
 
