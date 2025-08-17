@@ -9,8 +9,7 @@ This project aims to bridge communication gaps for the **speech & hearing-impair
 - ✋ Real-time hand tracking with OpenCV + MediaPipe  
 - 🤖 Gesture classification using a deep learning model (TensorFlow/Keras)  
 - 📝 Converts signs into text output in real-time  
-- 🎥 Works with any standard webcam  
-- 📱 Future-ready for mobile/embedded deployment (TensorFlow Lite)  
+- 🎥 Works with any standard webcam    
 
 ---
 
